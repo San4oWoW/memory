@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "C:/Users/alial/Desktop/memory v 3.0/create.py", line 48, in <module>
+    cr.get_and_write_index("C:\index.txt", cl)
+  File "C:/Users/alial/Desktop/memory v 3.0/create.py", line 37, in get_and_write_index
+    f = open(path, "w")
+PermissionError: [Errno 13] Permission denied: 'C:\\index.txt'
